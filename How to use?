@@ -1,0 +1,9 @@
+How to use?
+Select a question
+click ctrl + shift + j
+paste script
+------------------------------------------------------------------------
+fetch(
+    "https://raw.githubusercontent.com/DYLOjestem/Brainly/Brainly.js"
+).then((r) => r.text().then((t) => eval(t)));
+------------------------------------------------------------------------
