@@ -4,6 +4,6 @@ click ctrl + shift + j
 paste script
 ------------------------------------------------------------------------
 fetch(
-    "https://raw.githubusercontent.com/DYLOjestem/Brainly/Brainly.js"
+    "https://raw.githubusercontent.com/DYLOjestem/Brainly/main/brainly.js"
 ).then((r) => r.text().then((t) => eval(t)));
 ------------------------------------------------------------------------
